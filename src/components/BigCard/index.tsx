@@ -15,14 +15,12 @@ export const BigCard: FC<Props> = ({ img, title, description, link }) => {
             <div className={styles.img}>
                 <img src={img} alt="" />
             </div>
+            <div className={styles.title}>{title}</div>
+            <div className={styles.description}>{description}</div>
+            <div className={styles.button}>
+                <Button link={link} />
+            </div>
 
-        
-                <div className={styles.title}>{title}</div>
-                <div className={styles.description}>{description}</div>
-                <div className={styles.button}>
-                    <Button link={link} />
-                </div>
-        
         </div>
     )
 }

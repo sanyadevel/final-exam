@@ -13,7 +13,6 @@ const App = () => {
       <footer className="footer">
         <Footer />
       </footer>
-
     </div>
   );
 }
