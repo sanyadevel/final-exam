@@ -1,0 +1,18 @@
+.container {
+   border-radius: 40px;
+   width: 137px;
+   height: 40px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-decoration: none;
+   background-color: black;
+   color: white;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 11.48px;
+
+   & > img {
+    margin-left: 8px;
+}
+}

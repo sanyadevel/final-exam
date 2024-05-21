@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 70%;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.miniCards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.miniCard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: calc(33.33% - 10px);
+    margin: 0 0 55px 0;
+}
