@@ -1,0 +1,35 @@
+.container {
+    max-height: 300px;
+    min-height: 300px;
+    background-color: black;
+    margin-top: 92px;
+    position: relative;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 375px;
+}
+
+.name {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 30.62px;
+    color: white;
+}
+
+.title {
+    margin-bottom: 49px !important;
+}
+
+.tag {
+    font-weight: 400;
+    color: #4D4D4D;
+    font-size: 18px;
+    line-height: 17.23px;
+    margin: 16px 0;
+
+    & > a {
+        text-decoration: none;
+        color: #4D4D4D;
+    }
+}
