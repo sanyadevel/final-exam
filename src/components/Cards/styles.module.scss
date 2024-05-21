@@ -20,4 +20,17 @@
     justify-content: center;
     min-width: calc(33.33% - 10px);
     margin: 0 0 55px 0;
+    transition: transform 0.3s ease; 
+
+    &:hover {
+        transform: translate(0, -10px);
+    }
+}
+
+.bigCard {
+    transition: transform 0.3s ease; 
+
+    &:hover {
+        transform: translate(0, -10px);
+    }
 }
