@@ -6,11 +6,14 @@ import './index.css';
 
 const App = () => {
   return (
-    <div>
+    <div className='main'>
       <Header />
       <Title />
       <Cards />
-      <Footer />
+      <footer className="footer">
+        <Footer />
+      </footer>
+
     </div>
   );
 }

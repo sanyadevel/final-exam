@@ -3,3 +3,35 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+html,
+body,
+#root {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+#root>div {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.main {
+    flex: 1;
+}
+
+.footer {
+    margin-top: auto;
+}
